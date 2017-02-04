@@ -4,8 +4,8 @@
 - Files are very flexible, can contain almost anything:
     - Order.scala does not have to contain a class named Order.
 - Packages does not have to have the same name of the folder.
-- There's no protective keyword like in Java: private, protected, public.
-    - Packaged objects: 
+- There's no protective keyword for package like in Java(default).
+    - There are Packaged objects: 
         - Code that you can use within package scope
         - You can import a class or the entire package
 - Imports can be renamed, you can create an alias.

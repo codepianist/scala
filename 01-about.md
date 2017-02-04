@@ -6,7 +6,19 @@
 - Runs on JVM, creates Java bytecode
 - Java interoperability. Can use any Java library
 - Compiles a little bit slow comparing to Java
+- It's flexible and opinionless, has several ways to do the same thing and it's entirely up to you to decide:
+    - Sometime will be difficult to recognize the Scala exotic syntax
+    - You can write imports at the middle of a class
+- It leverages freedom: Tell me what to do not How to do.
+```
+// Java
+for(int i=0; i<100; i++){
+    System.out.println(i);
+}
 
+// Scala
+(0 to 100).foreach(println)
+```
 
 ## Functional and Object Orientated
 - Everything is an Object
